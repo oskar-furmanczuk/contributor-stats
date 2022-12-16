@@ -24,7 +24,7 @@ ___USAGE___
 
 To use the app open any HTTP client and make a GET request to 
 
-http://localhost:8080/org/<organization-name>/contributors
+http://localhost:8080/org/{organization-name}/contributors
 
 where {organization-name} is any valid GitHub organization. 
 Keep in mind that it won't be possible to calculate stats for enormous organizations like Microsoft or Apache. 
